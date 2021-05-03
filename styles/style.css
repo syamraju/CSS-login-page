@@ -1,0 +1,84 @@
+.body{
+  background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.card-main{
+  width: 95vw;
+  height: 95vh;
+  margin: 20px;
+  background: rgba(0%, 0%, 0%, 0.5);
+  border-radius: 20px;
+}
+.btn{
+  width: 5em;
+  height: 2em;
+  background: rgba(0%, 0%, 0%, 0.5);
+  border: none;
+  position: relative;
+  left: 30px;
+  top: 20px;
+  border-radius: 10px;
+  color: white;
+}
+.heading{
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 600;
+  margin-top: 100px;
+  font-size: 3em;
+}
+.heading1{
+  color: #4895ef;
+  font-weight: bolder;
+}
+.prof-pic{
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  border-radius: 100%;
+}
+.namepass{
+  margin: 40px;
+  text-align: center;
+}
+.name-in{
+  border-radius: 3px;
+  width: 20em;
+  background: rgba(0%, 0%, 0%, 0.3);
+  border:none;
+  margin: 0.5em;
+  height: 1.7em;
+  display: block;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+.loginbtn{
+  margin: 30px;
+  width: 120px;
+  height: 35px;
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0);
+  border-width: thick;
+  border:solid;
+  border-color: #4ea8de;
+  color: #4ea8de;
+  font-weight: bold;
+
+}
+.loginbtn:hover{
+  background: #4ea8de;
+  color: white;
+}
+.para{
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 110px;
+  color: white;
+}
